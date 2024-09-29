@@ -1,0 +1,18 @@
+export const profile = {
+  title: 'Profil',
+  firstName: 'Imię',
+  enterFirstName: 'Wprowadź swoje imię...',
+  lastName: 'Nazwisko',
+  enterLastName: 'Wprowadź swoje nazwisko...',
+  labelEmail: 'E-mail',
+  enterEmail: 'Wprowadź e-mail...',
+  phoneNumber: 'Numer telefonu',
+  enterPhoneNumber: '+48 573 943 997',
+  labelCompanyName: 'Nazwa firmy',
+  enterCompanyName: 'Wprowadź nazwę firmy...',
+  customerTag: 'Tag firmy',
+  enterCustomerTag: 'Wprowadź tag firmy...',
+  companyVatId: 'Numer NIP',
+  enterCompanyVatId: 'Wprowadź numer NIP...',
+  save: 'Zapisz',
+}
