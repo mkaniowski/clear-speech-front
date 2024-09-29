@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo_no_bg.png'
 
 export interface INavbarRoute {
   label: string
@@ -12,7 +12,7 @@ export interface INavbar {
 const Navbar = () => {
   return (
     <div className='w-full bg-slate-300 h-16 flex justify-between items-center'>
-      <div className='w-16 h-16 bg-slate-900'>
+      <div className='w-16 h-16'>
         <img
           src={logo}
           alt='logo'

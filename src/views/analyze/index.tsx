@@ -10,8 +10,8 @@ const AnalyzeView = () => {
   if (!data || isLoading) return <Skeleton />
 
   return (
-    <div className='min-h-screen w-full bg-slate-100 flex flex-col items-center space-y-8'>
-      <div className='w-[960px] h-[540px] bg-slate-600 flex mt-8'></div>
+    <div className='min-h-screen w-full bg-slate-100 flex flex-col items-center space-y-8 pt-8'>
+      {/* <div className='w-[960px] h-[540px] bg-slate-600 flex mt-8'></div> */}
 
       <InfoTabs {...data} />
     </div>
