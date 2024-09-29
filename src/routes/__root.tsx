@@ -20,13 +20,6 @@ function RootComponent() {
       <Navbar />
       <Outlet />
       <Toaster />
-      {/* <TanStackRouterDevtools
-        position={
-          location.href.includes('login') || location.href.includes('register') ?
-            'top-left'
-          : 'bottom-right'
-        }
-      /> */}
       <ScrollRestoration />
     </>
   )
